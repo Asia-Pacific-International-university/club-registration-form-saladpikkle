@@ -27,4 +27,8 @@ Step 6 Requirements:
   - Search functionality
 */
 
+session_start();
+
+
+
 ?>

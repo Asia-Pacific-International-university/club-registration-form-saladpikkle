@@ -22,6 +22,19 @@
              - Club selection (select dropdown with at least 3 options)
              - Submit button
         -->
+        <form action="process.php" method="post" id="regisform">
+            <input type="text" id="firstname" name="name" placeholder="First Name" required>
+            <input type="email" id="email" name="email" placeholder="Email" required>
+    
+            <select name="club" id="club" required>
+                <option value="program" selected>Programming Club</option>
+                <option value="art">Art Club</option>
+                <option value="sports">Sports Club</option>
+            </select>
+    
+            <input type="submit" name="submit">
+        </form>
+
     </main>
 
     <footer>
